@@ -19,15 +19,3 @@ jobs:
             cypress/e2e/5-tugas-and-quiz/2-demowebshop/register.cy.js
             cypress/e2e/5-tugas-and-quiz/2-demowebshop/login.cy.js
           browser: chrome
-    - uses: actions/upload-artifact@v3
-      if: failure()
-      with:
-        name: cypress-screenshots
-        path: cypress/screenshots
- 
-    - uses: actions/upload-artifact@v3
-      if: failure()
-        with:
-        name: cypress-videos
-        path: cypress/videos
-        if-no-files-found: ignore 
