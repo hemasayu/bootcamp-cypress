@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="17.068" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-14T07:30:49" tests="0" file="cypress\e2e\4-webtesting\saucedemo.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Saucedemo Testing" timestamp="2023-09-14T07:30:49" tests="7" time="17.055" failures="0">
+    <testcase name="Saucedemo Testing C1 Login success with Page Object Model" time="3.947" classname="C1 Login success with Page Object Model">
+    </testcase>
+    <testcase name="Saucedemo Testing C2 Success login with commands" time="1.937" classname="C2 Success login with commands">
+    </testcase>
+    <testcase name="Saucedemo Testing C3 Success login with Fixture" time="2.600" classname="C3 Success login with Fixture">
+    </testcase>
+    <testcase name="Saucedemo Testing C4 Login success" time="1.445" classname="C4 Login success">
+    </testcase>
+    <testcase name="Saucedemo Testing C5 Login failed" time="1.334" classname="C5 Login failed">
+    </testcase>
+    <testcase name="Saucedemo Testing C6 Multiple failed login using data itteration" time="3.347" classname="C6 Multiple failed login using data itteration">
+    </testcase>
+    <testcase name="Saucedemo Testing C7 Login locked user" time="1.570" classname="C7 Login locked user">
+    </testcase>
+  </testsuite>
+</testsuites>

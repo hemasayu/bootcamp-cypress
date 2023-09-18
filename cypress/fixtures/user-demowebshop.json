@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Hemas",
+        "lastName": "Ayu",
+        "email": "hemas@webshop.com",
+        "password": "hemaswebshop01",
+        "wrongPassword": "passwordsalah."
+    },
+
+    {
+        "firstName": "Hemas",
+        "lastName": "Ayu",
+        "email": "hemas_failed_login@webshop.com",
+        "password": "hemaswebshop01"
+    }
+
+]   
