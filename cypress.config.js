@@ -1,6 +1,7 @@
 module.exports = {
   e2e: {
-    baseUrl: 'https://www.saucedemo.com/v1/',
+    baseUrl: 'https://demowebshop.tricentis.com',
+
     setupNodeEvents(on, config) {  
     },
     env: {
