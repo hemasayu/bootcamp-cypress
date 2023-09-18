@@ -3,7 +3,7 @@ const userWebshop = require('../../../fixtures/user-demowebshop.json')
 
 describe('Demo Web Shop Registration', () => {
     beforeEach('Visit Demo Web Shop', () => {
-        cy.visit('https://demowebshop.tricentis.com')
+        cy.visit('/')
         cy.get('.ico-login').click()
         cy.url().should('include', '/login')
     })
