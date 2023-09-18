@@ -2,7 +2,7 @@ name: Cypress Tests
 on: push
   push:
     paths: 
-    - 'cypress/e2e/5-tugas-and-quiz/2-demowebshop/**'
+    - 'cypress/e2e/5-tugas-and-quiz/2-demowebshop/*.cy.js'
 
 jobs:
   cypress-run:
