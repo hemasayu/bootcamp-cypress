@@ -2,6 +2,7 @@ name: Cypress Tests
 on: push
 jobs:
   cypress-run:
+    name: Cypress run 
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
