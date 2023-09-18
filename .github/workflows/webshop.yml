@@ -12,4 +12,4 @@ jobs:
         with:
           spec: cypress/e2e/5-tugas-and-quiz/2-demowebshop/register.cy.js
                 cypress/e2e/5-tugas-and-quiz/2-demowebshop/login.cy.js
-          browser: Chrome
+          browser: chrome
