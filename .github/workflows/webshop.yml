@@ -1,5 +1,8 @@
 name: Cypress Tests
-on: push
+on: 
+  push:
+    paths: cypress/e2e/5-tugas-and-quiz/2-demowebshop
+
 jobs:
   cypress-run:
     name: Cypress run 
@@ -11,5 +14,19 @@ jobs:
       - name: Cypress Test WebShop
         uses: cypress-io/github-action@v6
         with:
-          spec: cypress/e2e/5-tugas-and-quiz/2-demowebshop/register.cy.js  
+          spec: |
+            cypress/e2e/5-tugas-and-quiz/2-demowebshop/register.cy.js
+            cypress/e2e/5-tugas-and-quiz/2-demowebshop/login.cy.js
           browser: chrome
+    - uses: actions/upload-artifact@v3
+      if: failure()
+      with:
+        name: cypress-screenshots
+        path: cypress/screenshots
+ 
+    - uses: actions/upload-artifact@v3
+      if: failure()
+        with:
+        name: cypress-videos
+        path: cypress/videos
+        if-no-files-found: ignore 
