@@ -1,8 +1,5 @@
 name: Cypress Tests
-on: 
-  push:
-    paths: 
-    - 'cypress/e2e/5-tugas-and-quiz/2-demowebshop'
+on: push
 
 jobs:
   cypress-run:
