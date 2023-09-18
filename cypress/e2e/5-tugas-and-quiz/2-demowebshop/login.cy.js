@@ -20,7 +20,7 @@ it('Login with unregistered account', () => {
 
 it('Login with valid account but invalid password', () => {
     cy.webShopLoginUnsuccess()
-    cy.verifyContain('.validation-summary-errors', 'The credentials provided are corrects..')
+    cy.verifyContain('.validation-summary-errors', 'The credentials provided are incorrect')
 })
 
 })
